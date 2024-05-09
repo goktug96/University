@@ -1,0 +1,89 @@
+------------------------
+Makefile
+------------------------
+540c540
+< core-y		:= usr/
+---
+> core-y		:= usr/ set_myFlag/
+
+
+------------------------
+syscall_32.tbl
+------------------------
+363a364
+> 355 i386	set_myFlag		sys_set_myFlag
+
+
+------------------------
+syscalls.h
+------------------------
+851a852
+> asmlinkage long sys_set_myFlag(pid_t pid, int flag);
+
+
+------------------------
+sched.h
+------------------------
+1467a1468,1469
+> 
+> 	int myFlag;
+
+
+------------------------
+init_task.h
+------------------------
+217a218
+> 	.myFlag	= 0, 
+
+
+------------------------
+fork.c
+------------------------
+6c6
+< 
+---
+> // line 1290
+75c75
+< 
+---
+> #include <asm/errno.h>
+1289a1290,1291
+> 	p->myFlag = 0;
+> 	
+1645a1648,1652
+> 	struct task_struct *tsk = current;
+> 	// Do not create a child process under this situations
+> 	if (tsk->myFlag == 1 && task_nice(tsk) > 10)
+> 		return -ECHILD;
+> 	
+
+------------------------
+exit.c
+------------------------
+6c6
+< 
+---
+> // do_exit line 704
+56c56
+< 
+---
+> #include <linux/sched.h>
+706c706
+< 	struct task_struct *tsk = current;
+---
+> 	struct task_struct *tsk= current;
+707a708,720
+> 
+> 	if (tsk->myFlag == 1 && task_nice(tsk) > 10)
+> 	{
+> 		struct list_head *sibling_list;
+> 		struct task_struct *_sibling;
+> 		struct task_struct *_parent = current->parent;
+> 		list_for_each(sibling_list, &_parent->children)
+> 		{
+> 			_sibling = list_entry(sibling_list, struct task_struct, sibling);
+> 			siginfo_t siginfo;
+> 			kill_proc_info(SIGKILL, &siginfo, _sibling->pid);
+> 		}
+> 	}
+

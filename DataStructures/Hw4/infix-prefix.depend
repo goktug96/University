@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1481032565 source:c:\users\goktu\desktop\infix-prefix\main.cpp
+	<iostream>
+	"stack.h"
+
+1481032340 source:c:\users\goktu\desktop\infix-prefix\stackop.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1481029888 c:\users\goktu\desktop\infix-prefix\stack.h
+
+1481032565 source:c:\users\goktu\desktop\infix-postfix\main.cpp
+	<iostream>
+	"stack.h"
+
+1481029888 c:\users\goktu\desktop\infix-postfix\stack.h
+
+1481032340 source:c:\users\goktu\desktop\infix-postfix\stackop.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+

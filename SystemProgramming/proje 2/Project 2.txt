@@ -1,0 +1,10 @@
+Develop a Linux kernel module which will implement a priority queueing mechanism. 
+The driver will control a number of queue devices (/dev/queue1, /dev/queue2, ...) where each device will act as an 
+independent queue. The number of queue devices will be a module parameter. 
+Writing to a queue device will insert the written text to the end of the queue. 
+When reading from the queue, entries in the queue will behave as concatenated strings. 
+There will be an ioctl command named "pop" which will return the entry at the front of the queue and remove it from the 
+queue. 
+/dev/queue0 will be a special queue which will only be used through the ioctl command described above (no read or write). 
+It will pop the front element from queue1 if the queue is not empty. 
+Otherwise it will try the remaining queues in order and pop from the first queue that is not empty.

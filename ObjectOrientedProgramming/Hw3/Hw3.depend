@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1494609333 source:c:\users\goktu\desktop\hw3\hw3\dessertshop.cpp
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	"shop.h"
+	"candy.h"
+	"cookie.h"
+	"icecream.h"
+
+1494610507 c:\users\goktu\desktop\hw3\hw3\shop.h
+	<iostream>
+
+1494609064 c:\users\goktu\desktop\hw3\hw3\candy.h
+	<string.h>
+
+1494609000 c:\users\goktu\desktop\hw3\hw3\cookie.h
+	<string.h>
+
+1494609048 c:\users\goktu\desktop\hw3\hw3\icecream.h
+	<string.h>
+
+1494714247 source:c:\users\goktu\desktop\dersler\blg 252e-object orianted\hw3\dessertshop.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	"shop.h"
+	"candy.h"
+	"cookie.h"
+	"icecream.h"
+
+1494702527 c:\users\goktu\desktop\dersler\blg 252e-object orianted\hw3\shop.h
+	<iostream>
+
+1494707321 c:\users\goktu\desktop\dersler\blg 252e-object orianted\hw3\candy.h
+	<string.h>
+
+1494713501 c:\users\goktu\desktop\dersler\blg 252e-object orianted\hw3\cookie.h
+	<string.h>
+	<stdlib.h>
+
+1494713513 c:\users\goktu\desktop\dersler\blg 252e-object orianted\hw3\icecream.h
+	<string.h>
+	<stdlib.h>
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1479758834 source:c:\users\goktu\desktop\bil233e hw2\hw2\listoperations.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<iomanip>
+	"list.h"
+
+1479733353 c:\users\goktu\desktop\bil233e hw2\hw2\list.h
+
+1479740604 source:c:\users\goktu\desktop\bil233e hw2\hw2\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"list.h"
+

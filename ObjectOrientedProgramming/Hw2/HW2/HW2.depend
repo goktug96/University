@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1493385577 source:c:\users\goktu\desktop\oop hw2\hw2\main.cpp
+	<iostream>
+	<string.h>
+	"AdderRemover.h"
+
+1493385690 c:\users\goktu\desktop\oop hw2\hw2\adderremover.h
+	"node.h"
+	"ARTraverser.h"
+
+1493384708 c:\users\goktu\desktop\oop hw2\hw2\node.h
+
+1493384209 c:\users\goktu\desktop\oop hw2\hw2\artraverser.h
+	"Node.h"
+

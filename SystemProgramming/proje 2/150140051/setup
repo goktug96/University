@@ -1,0 +1,6 @@
+make
+sudo rmmod messagebox
+sudo insmod messagebox.ko
+sudo rm /dev/messagebox
+sudo mknod /dev/messagebox c $(grep messagebox /proc/devices | grep [0123456789] | cut -d' ' -f1) 0
+sudo chmod 666 /dev/messagebox

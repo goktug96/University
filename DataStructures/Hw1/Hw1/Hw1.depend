@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1476638348 source:c:\users\goktu\desktop\blg 233 hw1\hw1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	<fstream>
+
+1477699692 source:c:\users\goktu\desktop\dersler\bil233e\blg 233 hw1\hw1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	<fstream>
+

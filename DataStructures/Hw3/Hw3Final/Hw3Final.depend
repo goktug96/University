@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1482692835 source:c:\users\goktu\desktop\hw3\hw3final\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	<math.h>
+	<climits>
+	"stack-queue.h"
+
+1482690384 c:\users\goktu\desktop\hw3\hw3final\stack-queue.h
+
+1482692835 source:c:\users\goktu\desktop\dersler\bil233e-data structures\hw3\hw3final\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	<math.h>
+	<climits>
+	"stack-queue.h"
+
+1482690384 c:\users\goktu\desktop\dersler\bil233e-data structures\hw3\hw3final\stack-queue.h
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1552475907 source:c:\users\goktu\desktop\dersler\4.2 blg 460e- secure programming\hw2\sechw2\code.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1552481464 source:c:\users\goktu\desktop\dersler\4.2 blg 460e- secure programming\hw2\sechw2\code2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1552488969 source:c:\users\goktu\desktop\dersler\blg460e-secureprogramming\hw2\sechw2\code2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<ctype.h>
+
