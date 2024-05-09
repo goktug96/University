@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1524263818 source:c:\users\goktu\desktop\dersler\3.2 analysis of algorithms-ii\hw2\hw2\main.cpp
+	<iostream>
+	<float.h>
+	<stdlib.h>
+	<math.h>
+	<fstream>
+	<sstream>
+	<ctime>
+
+1524299041 source:c:\users\goktu\desktop\dersler\3.2 analysis of algorithms-ii\hw2\hw2\150140120.cpp
+	<iostream>
+	<float.h>
+	<stdlib.h>
+	<math.h>
+	<fstream>
+	<sstream>
+	<ctime>
+

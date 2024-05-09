@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1521332603 source:c:\users\goktu\desktop\hw1\main.cpp
+	<iostream>
+	<string.h>
+	<deque>
+	<list>
+	<string>
+	<ctime>
+
+1521332873 source:c:\users\goktu\desktop\hw1\sourcecode.cpp
+	<iostream>
+	<string.h>
+	<deque>
+	<list>
+	<string>
+	<ctime>
+

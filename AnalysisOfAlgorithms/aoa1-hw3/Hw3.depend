@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512146174 source:c:\users\goktu\desktop\hw3\main.cpp
+	<iostream>
+	<iomanip>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<ctime>
+
